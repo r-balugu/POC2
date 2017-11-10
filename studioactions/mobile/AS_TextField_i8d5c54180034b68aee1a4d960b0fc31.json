@@ -1,0 +1,33 @@
+{
+    "AS_TextField_i8d5c54180034b68aee1a4d960b0fc31": {
+        "id": "AS_TextField_i8d5c54180034b68aee1a4d960b0fc31",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmAddUser",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f169ba48d6e2429eb57f40d91ed0730d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ce50496abfb443e283ec3ccf1a2f2749",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "checkPasswordStrength",
+            "display": "checkPasswordStrength",
+            "inputparams": [{
+                "name": "password",
+                "value": "frmAddUser.txtPassword.text"
+            }],
+            "parentId": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "AS_Button_f01380f565b34e01ae7cb4f03608a949": {
+        "id": "AS_Button_f01380f565b34e01ae7cb4f03608a949",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_gb980418a3444495b258cbf7a33a43c5",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "resetData",
+            "display": "resetData",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

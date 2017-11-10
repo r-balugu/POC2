@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "127dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s7feff8512dc4d50ac823a3ddca74e32",
+    "_text_": "Login WithFacebook",
+    "_top_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "55%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7feff8512dc4d50ac823a3ddca74e32",
+    "id": "btnWithFacebook",
+    "ide_onClick": "AS_Button_f9289e740e8e401cb3ffda77ff416b12",
+    "info": null,
+    "isvisible": true,
+    "kuid": "j308510d4d7b49a0b2d27efeb9ea4314",
+    "name": "kony.ui.Button",
+    "parent": "FlexContainer0f5c655233e6e4c",
+    "pf": "frmLogin",
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s870df3b9f1c45859aeae6e0b3755ec8",
+    "_text_": "Don't have an account?",
+    "_top_": {
+        "type": "string",
+        "value": "72%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "65%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "Label0f9c07c181d2244",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "i590c97d15e340e092ee4b2ded9a77eb",
+    "name": "kony.ui.Label",
+    "parent": "flxMain",
+    "pf": "frmLogin",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

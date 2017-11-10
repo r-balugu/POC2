@@ -1,0 +1,33 @@
+{
+    "AS_TextField_b4d72060bd594522a47124b6cc9d0dc9": {
+        "id": "AS_TextField_b4d72060bd594522a47124b6cc9d0dc9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmAddUser",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f169ba48d6e2429eb57f40d91ed0730d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___hbb05fa6556d4554a97b04172130c917",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "checkConfirmPassword",
+            "display": "checkConfirmPassword",
+            "inputparams": [{
+                "name": "confirmPassword",
+                "value": "frmAddUser.txtRePwd.text"
+            }],
+            "parentId": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Button_c29758957c9d4091a89c32ea42547e0a": {
+        "id": "AS_Button_c29758957c9d4091a89c32ea42547e0a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2a1d30b0ab54c9fb9b5b2a5e66cc500"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e9ae6e9226ef46608e8ef90c09ed895d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "authenticateMFUsingFacebook",
+            "display": "authenticateMFUsingFacebook",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

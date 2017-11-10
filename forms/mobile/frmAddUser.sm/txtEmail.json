@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please enter a valid email",
+    "_skin_": "sd95db6baa0c4b3b94007c516fbf2035",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "33dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "txtEmail",
+    "info": null,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "b855f6bb0e284b82bbec86542b01f2ec",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxEmail",
+    "pf": "frmAddUser",
+    "placeholderskin": "sb094cdcf1c0429388e1ef021fa5589a",
+    "securetextentry": false,
+    "textinputmode": "A",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

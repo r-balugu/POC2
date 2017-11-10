@@ -1,0 +1,24 @@
+{
+    "AS_Form_jfb9c47ee2704f779ea7586773dc07ea": {
+        "id": "AS_Form_jfb9c47ee2704f779ea7586773dc07ea",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddUser",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f169ba48d6e2429eb57f40d91ed0730d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__jeb73c484a62427d9344a5dec93b331c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "// frmAddUser.txtPassword.text = \"\";\n// frmAddUser.txtRePwd.text = \"\";",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "8dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_skin_": "s49fcb067a4c4e5b8f57b7a3ffa24836",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "android": {
+        "ide_onEndEditing": "AS_TextField_fd9a3df0187c4f07897b969eee48e9cf"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "txtRePwd",
+    "ide_onDone": "AS_TextField_b4d72060bd594522a47124b6cc9d0dc9",
+    "info": null,
+    "iphone": {
+        "ide_onEndEditing": "AS_TextField_b1c83143231c449a84f2767df7d67cfc"
+    },
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "b543898af3ed48fcb8d6bfaf2e1c2989",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxRePassword",
+    "pf": "frmAddUser",
+    "securetextentry": true,
+    "textinputmode": "A",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

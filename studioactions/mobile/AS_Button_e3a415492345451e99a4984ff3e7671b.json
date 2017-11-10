@@ -1,0 +1,28 @@
+{
+    "AS_Button_e3a415492345451e99a4984ff3e7671b": {
+        "id": "AS_Button_e3a415492345451e99a4984ff3e7671b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddUser",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f169ba48d6e2429eb57f40d91ed0730d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a5fe5721cc2e4d5b8cb93ce85095219b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "validateAddUser",
+            "display": "validateAddUser",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

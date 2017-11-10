@@ -1,0 +1,21 @@
+{
+    "AS_Button_g65dd54001eb4e0182a129525b98bd6b": {
+        "id": "AS_Button_g65dd54001eb4e0182a129525b98bd6b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_b0751216799843c387e3702ced36ebdf",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "authenticateMFUsingFacebook",
+            "display": "authenticateMFUsingFacebook",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

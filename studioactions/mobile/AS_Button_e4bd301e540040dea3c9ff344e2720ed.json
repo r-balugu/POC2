@@ -1,0 +1,28 @@
+{
+    "AS_Button_e4bd301e540040dea3c9ff344e2720ed": {
+        "id": "AS_Button_e4bd301e540040dea3c9ff344e2720ed",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMain",
+            "type": "forms",
+            "platform": "",
+            "KUID": "hacb0054806d4bf19f09b1b64fea278c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a65b57cb24b64346a133b9798247ed79",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showLogoutAlert",
+            "display": "showLogoutAlert",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": false,
+            "source": "module"
+        }]
+    }
+}
