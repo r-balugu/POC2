@@ -8,8 +8,6 @@ mobileFabricConfiguration = {
     serviceURL: "https://100011509.auth.konycloud.com/appconfig",
     identityServices: [{
             service: "userstore",
-            username: "Novartis.Europe@kony.com",
-            password: "Default@1234"
         },
         {
             service: "FacebookIdentity"
