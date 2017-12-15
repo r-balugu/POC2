@@ -46,26 +46,31 @@ public class FrmMainTest extends BaseTest {
 	@BeforeClass
 	@Override
 	public void navigateTo() {
-	/*	try {
-		loginfrm.loginIn(CORRECT_USER_NAME, CORRECT_PASSWORD);		
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-						e.printStackTrace();
-		}*/
 	}
 	
+	//Test for login
 	
-	@Test
+	@Test(groups = "Login")
 	public void testLogin() throws InterruptedException {
 			System.out.println("Login Starts");
 			loginfrm.loginIn(CORRECT_USER_NAME, CORRECT_PASSWORD);
 			System.out.println("Login Ends");
 	}
 	
-	@Test
+	// Test for checking the message after logging in 
+	
+	@Test(groups = "Login", priority=1)
+	public void testloginmessage()
+	{
+		mainfrm.checkwelcome();
+	}
+	
+	// Test for logout functionality
+	@Test(groups = "Login",priority=2)
 	public void testlogOut()
 	{
 		mainfrm.logOut();
 		loginfrm.checkIfBackAtLogin();
 	}
+	
 }
