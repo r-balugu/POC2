@@ -96,6 +96,11 @@ public class FrmLogin extends BaseForm {
 	}
 	
     public boolean checkIfBackAtLogin() {
-        return btnLogin.isDisplayed() && username.isDisplayed() && pass_word.isDisplayed();
+        return btnLogin.isDisplayed();
+    }
+    
+    public void clickbackbutton()
+    {
+    	driver.navigate().back();
     }
 }
