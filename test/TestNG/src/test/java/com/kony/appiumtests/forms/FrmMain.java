@@ -44,4 +44,9 @@ public class FrmMain extends BaseForm {
 		
 	}
 	
+	public boolean checkwelcome()
+	{
+		
+		return lbl_welcome.isDisplayed();
+	}
 }
