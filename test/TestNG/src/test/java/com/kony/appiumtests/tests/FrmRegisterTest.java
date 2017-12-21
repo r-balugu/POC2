@@ -24,30 +24,28 @@ public class FrmRegisterTest extends BaseTest {
 	
 	@BeforeClass
 	@Override
-	public void navigateTo() {
-		//loginfrm.registernew();			
+	public void navigateTo() {					
 	}
 	
 	   /**
      * Test to register new user
      */
 	
-	@Test
+	@Test(priority=4)
 	public void testregisteruser()
 	{
 		loginfrm.registernew();
 		System.out.println("Register Starts");
 		registerfrm.registeruser("lalitha.chadalavada@kony.com", "lalitha", "p", "9866188536", "Default@123", "Default@123");
-	//	WebDriverWait wait = new WebDriverWait(driver, 5000);
-	//	wait.until(arg0)
 		System.out.println("User Added");
+		bclickbackbutton();		
 	}
 	
 	   /**
      * Test to cancel the registration of new user
      */
 	
-	@Test
+	@Test(priority=3)
 	public void testregistercancel()
 	{
 		loginfrm.registernew();

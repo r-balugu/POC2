@@ -91,7 +91,8 @@ public class FrmLogin extends BaseForm {
 		WebDriverWait wait = new WebDriverWait(driver, 10000);
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//android.widget.Button[@index='1' and @text='Login WithFacebook']")));
 		this.initiaizeElements();
-		this.btnLoginFB.click();	
+		this.btnLoginFB.click();
+		//WebDriverWait wait1 = new WebDriverWait(driver, 10000);		
 		
 	}
 	

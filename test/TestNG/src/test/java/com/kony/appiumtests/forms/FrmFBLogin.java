@@ -56,21 +56,7 @@ public class FrmFBLogin extends BaseForm {
 			System.out.println("in catch block");
 		}		
 	}
-	
-	
-	public void fblogin1(){
-		//WebDriverWait driverWait = new WebDriverWait(driver, 10000);
-		//driverWait.until(ExpectedConditions.elementToBeClickable(By.name("Log In "))); // waiting for the element to be clickable
-		System.out.println(driver.getPageSource()); // get the page source 
-		driver.findElement(By.xpath("//input[@name='email']")).sendKeys("abc");
-		driver.findElement(By.xpath("//input[@name='pass']")).sendKeys("testpassword");		
-		//driver.findElement(By.name("Log In ")).click();
-		/*this.fbusername.sendKeys("abc");
-		this.fbpswd.sendKeys("def");
-		this.fbLogin.click();*/
-		
-		//driver.findElement(By.xpath("//button[@name='__CONFIRM__']")).click();
-	}
+
 	
 	
 }

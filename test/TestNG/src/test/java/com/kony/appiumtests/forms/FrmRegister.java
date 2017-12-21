@@ -33,6 +33,9 @@ public class FrmRegister extends BaseForm {
 	@FindBy(name="ADD USER") 
 	public WebElement btnadduser;
 	
+	@FindBy(name="OK")
+	public WebElement btnOK;
+	
 	public WebElement newEmailtxtbox;	
 	
 	public WebElement newFirstNametxtbox;	
@@ -104,6 +107,7 @@ public class FrmRegister extends BaseForm {
 		}
 		
 		this.btnadduser.click(); 
+		this.btnOK.click();
 	}
 	
 	//Method to cancel the registration of new user

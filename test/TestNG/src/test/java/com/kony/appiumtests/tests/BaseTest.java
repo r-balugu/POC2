@@ -9,9 +9,11 @@ import java.net.URL;
 import io.appium.java_client.MobileElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
@@ -48,24 +50,16 @@ public abstract class BaseTest {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		// The commented section is used when try to work in local Environment.
 
-		/*
-		  capabilities.setCapability("deviceName", "4d002205f1d230af");
-		  capabilities.setCapability("platformVersion","5.0.1");
-		  capabilities.setCapability("platformName", "Android" );
-		  capabilities.setCapability("appPackage", "com.engie.SampleTest");
-		capabilities.setCapability("appActivity", "com.engie.SampleTest.SampleTest");
-		*/
 		 
 		  capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Kony(GT-I9300");
 			//capabilities.setCapability("udid", "4df7d4ac32053159"); //Give Device ID of your mobile phone 		  
-		  capabilities.setCapability(MobileCapabilityType.UDID, "4d00ae7cb24b60c3");		  
+		  capabilities.setCapability(MobileCapabilityType.UDID, "4d00bb04432b403d");		  
 		  capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
 			capabilities.setCapability("appPackage", "com.orgname.Sample");
 			capabilities.setCapability("appActivity", "com.orgname.Sample.NovarSample");
 			capabilities.setCapability(MobileCapabilityType.AUTO_WEBVIEW, true);
-			//capabilities.setCapability("InstrumentApp", true);
-			//capabilities.setCapability("automationName", "Selendroid");
-/*	  
+			
+			/*	  
 		if (iosdriver == null) {
 
 			// Comm with Appium server
@@ -118,6 +112,16 @@ public abstract class BaseTest {
 	public void afterTest() {
 
 	}
+	
+	   @BeforeMethod
+	   public void beforeMethod() {
+	     
+	   }
+	
+	@AfterMethod
+	public void afterMethod() {
+
+	}
 
 	@AfterSuite
 	// App close
@@ -129,5 +133,10 @@ public abstract class BaseTest {
 		if (iosdriver != null)
 			iosdriver.quit();
 	}
+	
+    public void bclickbackbutton()
+    {
+    	driver.navigate().back();    	
+    }
 
 }

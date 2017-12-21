@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test for Sample Application">
+	<test name="Testcase for Login">
+    <classes>
+    	<class name="com.kony.appiumtests.tests.BaseTest" />		
+    	<class name="com.kony.appiumtests.tests.FrmLoginTest" /> 
+    	<class name="com.kony.appiumtests.tests.FrmMainTest" />        
+    </classes>
+	</test>	
+	<test name="Testcase for Register">
+    <classes>  		
+		<class name="com.kony.appiumtests.tests.FrmRegisterTest" />        
+    </classes>	
+	</test>
+	<test name="Testcase for FB Login">
+    <classes>  		
+		<class name="com.kony.appiumtests.tests.FrmFBLoginTest" />        
+    </classes>
+	</test>
+</suite>

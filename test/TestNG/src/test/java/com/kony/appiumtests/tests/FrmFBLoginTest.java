@@ -29,7 +29,7 @@ public class FrmFBLoginTest extends BaseTest {
                 public void testfblogin(){                             
                           loginfrm.loginwithFB();  
                           fbloginfrm.fblogin(FB_USER_NAME,FB_PASSWORD);
-                          System.out.println("Logged in using FB credentials");
+                          System.out.println("Logged in using FB credentials");						  
                                 
                                                  
                 }
