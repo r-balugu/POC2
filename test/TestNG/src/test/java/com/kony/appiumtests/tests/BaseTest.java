@@ -50,16 +50,15 @@ public abstract class BaseTest {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		// The commented section is used when try to work in local Environment.
 
-		 
-		  capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Kony(GT-I9300");
-			//capabilities.setCapability("udid", "4df7d4ac32053159"); //Give Device ID of your mobile phone 		  
-		  capabilities.setCapability(MobileCapabilityType.UDID, "4d00bb04432b403d");		  
+	/*	 
+		  capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Kony(GT-I9300");					  
+		  capabilities.setCapability(MobileCapabilityType.UDID, "4d00bb04432b403d");	 //Give Device ID of your mobile phone 	  
 		  capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
 			capabilities.setCapability("appPackage", "com.orgname.Sample");
-			capabilities.setCapability("appActivity", "com.orgname.Sample.NovarSample");
+			capabilities.setCapability("appActivity", "com.orgname.Sample.Sample");
 			capabilities.setCapability(MobileCapabilityType.AUTO_WEBVIEW, true);
 			
-			/*	  
+			*/	  
 		if (iosdriver == null) {
 
 			// Comm with Appium server
@@ -72,7 +71,7 @@ public abstract class BaseTest {
 		 * getPlatform() is used to know the platform on which the app is
 		 * running
 		 */
-//		platformName = iosdriver.getCapabilities().getPlatform().toString();
+		platformName = iosdriver.getCapabilities().getPlatform().toString();
 
 		if ("MAC".equalsIgnoreCase(platformName)) {
 			System.out.println("Inside platform MAC............");
