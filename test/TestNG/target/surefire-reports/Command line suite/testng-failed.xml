@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.kony.appiumtests.tests.FrmRegisterTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="setUpPage"/>
+          <include name="testregistercancel"/>
+          <include name="navigateTo"/>
+          <include name="tearDownAppium"/>
+        </methods>
+      </class> <!-- com.kony.appiumtests.tests.FrmRegisterTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

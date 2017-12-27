@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 1, Errors: 0, Skipped: 24, Time elapsed: 4.108 sec <<< FAILURE! - in TestSuite
+beforeSuite(com.kony.appiumtests.tests.FrmFBLoginTest)  Time elapsed: 3.525 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+A new session could not be created. (Original error: The following desired capabilities are required, but were not provided: deviceName) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 466 milliseconds
+Build info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'
+System info: host: 'KH170', ip: '10.10.2.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: driver.version: IOSDriver
+

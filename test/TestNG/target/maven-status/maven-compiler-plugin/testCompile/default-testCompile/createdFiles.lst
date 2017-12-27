@@ -1,0 +1,10 @@
+com\kony\appiumtests\tests\FrmMainTest.class
+com\kony\appiumtests\forms\FrmMain.class
+com\kony\appiumtests\forms\FrmFBLogin.class
+com\kony\appiumtests\forms\FrmLogin.class
+com\kony\appiumtests\tests\BaseTest.class
+com\kony\appiumtests\tests\FrmLoginTest.class
+com\kony\appiumtests\tests\FrmRegisterTest.class
+com\kony\appiumtests\forms\FrmRegister.class
+com\kony\appiumtests\forms\BaseForm.class
+com\kony\appiumtests\tests\FrmFBLoginTest.class

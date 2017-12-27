@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test for Sample Application]">
+  <test name="Testcase for Login(failed)">
+    <classes>
+      <class name="com.kony.appiumtests.tests.FrmLoginTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="navigateTo"/>
+          <include name="testLogin"/>
+          <include name="setUpPage"/>
+          <include name="afterMethod"/>
+          <include name="tearDownAppium"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.kony.appiumtests.tests.FrmLoginTest -->
+      <class name="com.kony.appiumtests.tests.FrmMainTest">
+        <methods>
+          <include name="testloginmessage"/>
+          <include name="beforeSuite"/>
+          <include name="setUpPage"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="tearDownAppium"/>
+          <include name="navigateTo"/>
+          <include name="testlogOut"/>
+        </methods>
+      </class> <!-- com.kony.appiumtests.tests.FrmMainTest -->
+    </classes>
+  </test> <!-- Testcase for Login(failed) -->
+  <test name="Testcase for Register(failed)">
+    <classes>
+      <class name="com.kony.appiumtests.tests.FrmRegisterTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="testregisteruser"/>
+          <include name="setUpPage"/>
+          <include name="testregistercancel"/>
+          <include name="afterMethod"/>
+          <include name="navigateTo"/>
+          <include name="tearDownAppium"/>
+        </methods>
+      </class> <!-- com.kony.appiumtests.tests.FrmRegisterTest -->
+    </classes>
+  </test> <!-- Testcase for Register(failed) -->
+  <test name="Testcase for FB Login(failed)">
+    <classes>
+      <class name="com.kony.appiumtests.tests.FrmFBLoginTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="navigateTo"/>
+          <include name="afterMethod"/>
+          <include name="testfblogin"/>
+          <include name="tearDownAppium"/>
+          <include name="setUpPage"/>
+        </methods>
+      </class> <!-- com.kony.appiumtests.tests.FrmFBLoginTest -->
+    </classes>
+  </test> <!-- Testcase for FB Login(failed) -->
+</suite> <!-- Failed suite [Test for Sample Application] -->
