@@ -6,15 +6,5 @@
     	<class name="com.kony.appiumtests.tests.FrmLoginTest" /> 
     	<class name="com.kony.appiumtests.tests.FrmMainTest" />        
     </classes>
-	</test>	
-	<test name="Testcase for Register">
-    <classes>  		
-		<class name="com.kony.appiumtests.tests.FrmRegisterTest" />        
-    </classes>	
-	</test>
-	<test name="Testcase for FB Login">
-    <classes>  		
-		<class name="com.kony.appiumtests.tests.FrmFBLoginTest" />        
-    </classes>
-	</test>
+	</test>		
 </suite>
