@@ -4,8 +4,10 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.remote.MobilePlatform;
+import io.appium.java_client.AppiumDriver;
 
 import java.net.URL;
+import org.openqa.selenium.By;
 import io.appium.java_client.MobileElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -94,7 +96,8 @@ public abstract class BaseTest {
 			androiddriver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 			driver = androiddriver;
 		
-			
+			System.out.println("Inbasetest beforetest");
+			driver.findElement(By.name("Cancel")).click();
 		}
 
 	}
